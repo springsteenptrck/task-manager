@@ -34,3 +34,57 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# Task Manager
+
+A modern task management application built with Next.js, React, and TypeScript, featuring natural language processing for task creation, voice input support, and calendar integration.
+
+## Features
+
+- 📅 Calendar view for tasks
+- 🎤 Voice input support
+- 📝 Natural language task creation
+- ⭐ Priority levels (urgent, high, medium, low)
+- 🏷️ Task categorization
+- 🔍 Search functionality
+- 💾 Offline support with IndexedDB
+- 📱 Responsive design
+
+## Tech Stack
+
+- Next.js 14
+- React
+- TypeScript
+- TailwindCSS
+- Lucide Icons
+- IndexedDB
+- date-fns
+- ShadcnUI components
+
+## Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/springsteenptrck/task-manager.git
+```
+
+2. Install dependencies:
+```bash
+cd task-manager
+npm install
+```
+
+3. Run the development server:
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Usage
+
+- Type or speak your task using natural language
+- Include date and time in your task description (e.g., "Meeting tomorrow at 3pm")
+- Set priority by including words like "urgent", "high", "medium", or "low"
+- View your tasks in the calendar
+- Search through tasks using the search bar
